@@ -27,7 +27,9 @@ const theme = createTheme({
 });
 
 const slidesImports = [
-  import("../slides/1")
+  import("../slides/1"),
+  import("../slides/2"),
+  import("../slides/3")
 ];
 
 export default class Presentation extends React.Component {
